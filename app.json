@@ -19,10 +19,21 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.guta231.meuappwebview",
+      "networkSecurityConfig": {
+        "domain": {
+          "allowCleartextTraffic": true
+        }
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5c31e0f5-4b22-4799-b428-90dc47fe015d"
+      }
     }
   }
 }
